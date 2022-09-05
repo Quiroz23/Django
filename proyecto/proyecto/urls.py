@@ -15,13 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from primeraapp import views
+from primeraapp import views as vistaUno
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hola/', views.display),
-    path('ahora/', views.displayDateTime),
-    path('',views.renderTemplate),
-    path('holad/',views.vistaestructura)
+    path('hola/', vistaUno.display),
+    path('ahora/', vistaUno.displayDateTime),
+    path('',vistaUno.renderTemplate),
+    path('holad/',vistaUno.vistaestructura)
 
 ]
