@@ -4,6 +4,9 @@ import datetime
 
 
 
+def vistaestructura(request):
+    return HttpResponse("<h1>Hola denuevo<h1>")
+
 def display(request):
     return HttpResponse("<h1>Hola Mundo</h1>")
 

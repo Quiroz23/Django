@@ -22,5 +22,6 @@ urlpatterns = [
     path('hola/', views.display),
     path('ahora/', views.displayDateTime),
     path('',views.renderTemplate),
+    path('holad/',views.vistaestructura)
 
 ]
