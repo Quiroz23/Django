@@ -21,7 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('hola/', vistaUno.display),
     path('ahora/', vistaUno.displayDateTime),
-    path('',vistaUno.renderTemplate),
-    path('holad/',vistaUno.vistaestructura)
+    path('',vistaUno.vistahtml),
+    path('holad/',vistaUno.vistaestructura),
 
 ]

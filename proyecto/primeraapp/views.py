@@ -15,5 +15,5 @@ def displayDateTime(request):
     s = "<b>Fecha y Hora Actual: </b>" + str(dt)
     return HttpResponse(s)
 
-def renderTemplate(request):
+def vistahtml(request):
     return render(request, 'index.html')
